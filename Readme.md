@@ -6,7 +6,7 @@ https://www.sciencedirect.com/science/article/pii/S0031320320304994
 
 - The proposed work follows a pure anomaly detection formulation in which only real samples are used to train One-class Classifiers (OCCs).
 
-- The experiments are performed on 3 benchmarking anti-spoofing datasets including Replay-Attack, Replay-Mobile and Rose-Youtu.
+- The experiments are performed on three benchmarking anti-spoofing datasets including Replay-Attack, Replay-Mobile and Rose-Youtu.
 
 - The following links forward you to the webpage of the used datasets:
 
@@ -18,3 +18,8 @@ https://www.sciencedirect.com/science/article/pii/S0031320320304994
 
 - To perform the experiments on the Rose-Youtu dataset, a new protocol is proposed which splits the data into three subsets namely training, testing and validation. The proposed protocol is available in this repository:
    - https://github.com/12sf12/client-specific-anomaly-detection-PR/blob/master/Rose-Youtu_Protocol.txt
+
+## Photometric Normalisation
+
+- Before feeding video clips to CNNs, we photometrically normalise all frames using the Retinex method proposed in the following work:
+  - http://luks.fe.uni-lj.si/sl/osebje/vitomir/face_tools/INFace/
